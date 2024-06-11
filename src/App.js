@@ -12,8 +12,6 @@ function App() {
     <BrowserRouter>
     <Routes>
       <Route path='/' element={<AddStudent/>}/>
-      <Route path='/SearchStudent' element={<SearchStudent/>}/>
-      <Route path='/DeleteStudent' element={<DeleteStudent/>}/>
       <Route path='/ViewAll' element={<ViewAll/>}/>
     </Routes>
     </BrowserRouter>
